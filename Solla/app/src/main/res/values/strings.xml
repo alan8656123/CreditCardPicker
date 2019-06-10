@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">信用卡挑選</string>
+    <string name="PackageNamePI" translatable="false">tw.com.pchome.android.pi</string>
+    <string name="PackageNameLine" translatable="false">jp.naver.line.android</string>
+    <string name="PackageNameGooglePay" translatable="false">com.google.android.apps.walletnfcrel</string>
+    <string name="PackageNameJkos" translatable="false">com.jkos.app</string>
+    <string name="PackageNameSamsungPay" translatable="false">com.samsung.android.spay</string>
+
+    <string name="open_line_pay">Open Line Pay</string>
+    <string name="open_pi_wallet">Open PI Wallet</string>
+    <string name="open_google_pay">Open Google Pay</string>
+    <string name="open_line">Open Line</string>
+    <string name="open_jkos">Open Jkos</string>
+    <string name="open_samsung_pay">Open Samsung Pay</string>
+    <string name="manage_card">Manage Card</string>
+    <string name="title_activity_online" translatable="false">網購信用卡挑選</string>
+    <string name="Not_In_Taiwan">It seems that you are not in Taiwan</string>
+    <string name="Location_Not_Available">Cannot get your location.</string>
+    <string name="FiveMinPerQueryError">You have to wait 5 min since last use.</string>
+    <string name="Lost_API_Key" translatable="false">Cannot find API Key!</string>
+    <string name="APINoQuota">API quota exceeded</string>
+    <string name="OnPermissionRefused">Both ACCESS_WIFI_STATE &amp; ACCESS_FINE_LOCATION permissions are required</string>
+    <string name="PermissionLocationHint" translatable="false">為了抓取附近商家位置，您必須提供您的位置。</string>
+    <string name="PermissionPhoneStateHint" translatable="false">為了確認使用者是否在台灣，程式需要判斷您的手機狀態，藉由基地台資訊判斷您所在的位置。</string>
+    <string name="ScanNearbyFailHint">Something went wrong! Restart application and check error message.</string>
+    <string name="OnPhoneStatePermissionRefused">Need to check your location by phone state.</string>
+    <string name="DatabaseNotReadyHint">Database is not ready! Might be downloading. Please Wait.</string>
+    <string name="LocaleNotZHTW" translatable="false">Only support Traditional Chinese</string>
+    <string name="NoCardHint">You need to add at least one card!</string>
+    <string name="scan_nearby_shop">Scan Nearby Shop</string>
+    <string name="Scan_Hint">Click Bar to Scan Shop Nearby</string>
+    <string name="WaitingForAPI">Please wait.</string>
+    <string name="Scan_Fail_Hint">Fail</string>
+    <string name="NotSupportCreditCardHint">"Not support this card yet!"</string>
+    <string name="AlreadyAddThisCard">"Already have this card!"</string>
+    <string name="CardNumTooShort">Card Number is 8 character long!</string>
+    <string name="UserPolicy" translatable="false">
+    【按下「不同意」後，程式將無法打開。】\n\n
+    1. 這個程式目前是一個課堂Project，程式會蒐集您使用時的資料，並將其回傳到資料庫中，詳細收集的資料，請看最尾端。\n\n
+    2. 本程式使用了Google提供的Places API，Google可能會蒐集您的資料，不過我想您使用Android，應該早就同意這些了。\n\n
+    3. 本程式使用的API是以次數收費的，為了公平性，您每五分鐘只能使用一次查詢附近商家的功能，並且僅限位於台灣的使用者使用。。\n\n
+    4. 本程式使用的API是以次數收費的，為了讓本程式在最後課堂報告時仍保持可使用的狀態，所有使用者呼叫API有當日上限。\n\n
+    5. 本程式會記錄您的前八碼卡號，用於判斷您的卡片發卡商與卡種，如4182-3087即為中國信託銀行發行的Line Pay御璽卡。\n\n
+    6. 您能從本程式打開其他的支付方式，如：Google Pay，這並不代表雙方有合作關係（或背書），只是為使用者創造的快捷鍵。\n\n
+    7. 本程式提供的資訊不一定正確，回饋試算僅供參考，如果未獲得回饋，請找發卡單位詢問。\n\n
+    8. 為了避免爭議，本程式不會記住您的完整卡號，只會記住卡號前八碼判斷卡別，若有疑慮請不要使用。\n\n
+    【收集的資料】\n\n
+    1. 在程式第一次執行時，將隨機產生一組亂數，當作您的使用者ID，未來每次傳輸皆會傳輸這組ID，用來區分每位使用者。\n\n
+    2. 當您每次打開程式時，程式會回傳您的使用者ID（由亂數產生），以此分析每日使用者數量、次數與黏著度。\n\n
+    3. 當您新增信用卡至程式時，程式會回傳您的使用者ID（由亂數產生）與卡號前八碼，用來統計各卡的使用者數量。\n\n
+    4. 當您「透過本程式」打開其他支付工具（如：Pi錢包）時，程式會回傳您的使用者ID（由亂數產生）與支付工具名稱。\n\n
+    5. 當您查詢網購優惠時，本程式會回傳您的使用者ID（由亂數產生）、網域名字（不含參數等隱私資料）的資訊，用來分析使用者行為。\n\n
+    6. 當您查看商家優惠時，本程式會回傳您的使用者ID（由亂數產生）、商店名字、經緯度、所在縣市，用來分析使用者活動的範圍。\n\n
+    由於使用者ID是透過亂數產生的，所以絕對無法追蹤到使用者的任何個資，請安心使用。
+    </string>
+    <string name="Hint_EnterCreditCardNum">請輸入卡號前八碼</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="remove">Remove</string>
+    <string name="Permission">Permission</string>
+    <string name="Understand">OK</string>
+    <string name="HintNotGuarantee">本結果僅供參考 實際回饋仍請詢問各家銀行</string>
+    <string name="HintPlaceMightNotFound">商店資訊來自Google，在室內請打開Wi-Fi增加精準度。如無相符結果，可能為Google資訊不足。</string>
+</resources>

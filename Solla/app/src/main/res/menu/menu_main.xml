@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cc.sollacreditcardpicker.MainActivity">
+    <item
+        android:id="@+id/ManageCard"
+        android:orderInCategory="100"
+        android:title="@string/manage_card"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/StartScan"
+        android:orderInCategory="100"
+        android:title="@string/scan_nearby_shop"
+        app:showAsAction="never" />
+    <group
+        android:orderInCategory="101"
+        android:visible="true">
+        <item
+            android:id="@+id/OpenLinePay"
+            android:orderInCategory="102"
+            android:title="@string/open_line_pay" />
+        <item
+            android:id="@+id/OpenPIWallet"
+            android:orderInCategory="103"
+            android:title="@string/open_pi_wallet" />
+        <item
+            android:id="@+id/OpenGooglePay"
+            android:orderInCategory="104"
+            android:title="@string/open_google_pay" />
+        <item
+            android:id="@+id/OpenLine"
+            android:orderInCategory="105"
+            android:title="@string/open_line" />
+        <item
+            android:id="@+id/OpenJkos"
+            android:orderInCategory="106"
+            android:title="@string/open_jkos" />
+        <item
+            android:id="@+id/OpenSamsungPay"
+            android:orderInCategory="107"
+            android:title="@string/open_samsung_pay" />
+
+    </group>
+</menu>

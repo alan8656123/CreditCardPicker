@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">信用卡挑選</string>
+    <string name="open_line_pay">打開Line Pay</string>
+    <string name="open_pi_wallet">打開Pi錢包</string>
+    <string name="open_google_pay">打開Google Pay</string>
+    <string name="open_line">打開Line</string>
+    <string name="open_jkos">打開街口</string>
+    <string name="open_samsung_pay">打開三星支付</string>
+    <string name="manage_card">管理信用卡</string>
+    <string name="Not_In_Taiwan">看起來您並不在台灣</string>
+    <string name="Location_Not_Available">無法取得您所在的位置</string>
+    <string name="FiveMinPerQueryError">由於每日API有呼叫上限，為維護其他使用者權利，每五分鐘只能使用一次「搜尋附近商家」</string>
+    <string name="APINoQuota">看起來今日的API呼叫次數已經達到上限，無法使用</string>
+    <string name="OnPermissionRefused">您必須提供Wi-Fi狀態的權限和詳細位置資訊的權限</string>
+    <string name="ScanNearbyFailHint">看起來程式並沒有順利的初始化，請重新開啟程式，並注意程式顯示出來的錯誤訊息。</string>
+    <string name="OnPhoneStatePermissionRefused">為了要確認使用者是否在台灣，我們必須要透過手機連線的電信基地台，確認您所在的國家</string>
+    <string name="DatabaseNotReadyHint">資料庫仍在下載中，請稍待片刻</string>
+    <string name="NoCardHint">您必須要先加入一張信用卡，才能使用這個程式。\n加入卡片後，請重新開啟程式。</string>
+    <string name="scan_nearby_shop">搜尋附近商家</string>
+    <string name="Scan_Hint">點選狀態列右上角的選項，搜尋附近商家</string>
+    <string name="WaitingForAPI">請稍待片刻</string>
+    <string name="Scan_Fail_Hint">錯誤！</string>
+    <string name="remove">移除</string>
+    <string name="CardNumTooShort">請輸入前八碼！字數不正確</string>
+    <string name="AlreadyAddThisCard">您已經添加過這張卡片！</string>
+    <string name="NotSupportCreditCardHint">目前尚未新增這張卡片的資訊</string>
+    <string name="Permission">權限</string>
+    <string name="Understand">了解</string>
+    <string name="HintNotGuarantee">本結果僅供參考 實際回饋仍請詢問各家銀行</string>
+    <string name="HintPlaceMightNotFound">商店資訊來自Google，在室內請打開Wi-Fi增加精準度。如無相符結果，可能為Google資訊不足。</string>
+    <string name="Hint_EnterCreditCardNum">請輸入卡號前八碼</string>
+</resources>
